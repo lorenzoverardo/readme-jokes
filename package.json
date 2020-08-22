@@ -1,0 +1,23 @@
+{
+  "name": "readme-jokes",
+  "version": "1.0.0",
+  "description": "jokes for github readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzoverardo/readme-jokes.git"
+  },
+  "keywords": [],
+  "author": "lorenzoverardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzoverardo/readme-jokes/issues"
+  },
+  "homepage": "https://github.com/lorenzoverardo/readme-jokes#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
