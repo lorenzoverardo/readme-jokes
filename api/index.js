@@ -85,9 +85,12 @@ async function main(){
 		return main();
 	}
 }
+
 main();
+
 module.exports = async (req, res) => {
 	res.setHeader("Content-Type", "image/svg+xml");
 	res.send(renderJoke);
 };
+
 setInterval(function(){ main(); }, 1000);
