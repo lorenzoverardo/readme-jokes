@@ -11,6 +11,9 @@ async function main(){
 		};
 		joke = await getJoke();
 		
+		if (joke.id == 387)
+			joke.punchline = "[Please Enter New Password]<br />fortnight<br />[Error: Password is Two Week]";
+
 		if (joke.setup) {
 			renderJoke = 
 			`<svg width="500" height="auto" fill="none" xmlns="http://www.w3.org/2000/svg">
