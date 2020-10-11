@@ -85,6 +85,6 @@ module.exports = async (req, res) => {
 	}
 
 	res.setHeader("Content-Type", "image/svg+xml");
-	res.setHeader("Cache-Control", "public, max-age=1");
+	res.setHeader("Cache-Control", "public, max-age=0");
 	res.send(renderJoke);
 };
