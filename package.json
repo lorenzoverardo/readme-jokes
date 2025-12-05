@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lorenzoverardo/readme-jokes#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.30.2"
   }
 }
